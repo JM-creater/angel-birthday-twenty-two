@@ -1,0 +1,43 @@
+:root {
+  --bg-deep: #120617;
+  --bg-plum: #1f0b27;
+  --rose-primary: #fb7185;
+  --rose-deep: #e11d48;
+  --rose-soft: #fda4af;
+  --gold-bright: #fde047;
+  --gold-warm: #f59e0b;
+  --cream-text: #fff5f7;
+  --muted-pink: #f5d0fe;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-hand: 'Caveat', cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 28%, #2e1038 0%, #15071c 58%, #0c0310 100%);
+  color: var(--cream-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}

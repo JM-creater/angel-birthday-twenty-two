@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3b0a2a" />
+      <stop offset="100%" stop-color="#140618" />
+    </radialGradient>
+    <linearGradient id="heartGrad" x1="16" y1="18" x2="48" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#9f1239" />
+    </linearGradient>
+    <linearGradient id="haloGrad" x1="18" y1="8" x2="46" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#fef08a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Luxury Badge Background -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="#fbbf24" stroke-width="2" stroke-opacity="0.55" />
+
+  <!-- Golden Angel Halo -->
+  <ellipse cx="32" cy="13.5" rx="14" ry="4.2" stroke="url(#haloGrad)" stroke-width="3.2" fill="none" />
+
+  <!-- Glowing Rose Heart -->
+  <path
+    d="M32 53C32 53 12 40.2 12 26.8C12 20.5 16.9 16 22.8 16C26.5 16 29.9 18 32 21.1C34.1 18 37.5 16 41.2 16C47.1 16 52 20.5 52 26.8C52 40.2 32 53 32 53Z"
+    fill="url(#heartGrad)"
+    stroke="#fda4af"
+    stroke-width="1.2"
+  />
+
+  <!-- "22" inside the Heart -->
+  <text
+    x="32"
+    y="37.5"
+    text-anchor="middle"
+    fill="#fffbeb"
+    font-family="Georgia, serif"
+    font-weight="bold"
+    font-size="15.5"
+    letter-spacing="0.5"
+  >
+    22
+  </text>
+
+  <!-- Corner Sparkles -->
+  <circle cx="13" cy="14" r="1.5" fill="#fde047" />
+  <circle cx="51" cy="14" r="1.5" fill="#fde047" />
+</svg>
